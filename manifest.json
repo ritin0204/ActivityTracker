@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Activity Tracker",
+    "description": "Add and track Leads,tabs and small tasks",
+    "version": "1.1",
+    "action":{
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
